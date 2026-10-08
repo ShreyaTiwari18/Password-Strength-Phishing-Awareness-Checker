@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phishing Awareness Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <a class="brand" href="index.html">Cyber Awareness Toolkit</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="password.html">Password Checker</a>
+        <a href="phishing.html" aria-current="page">Phishing Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Phishing Awareness Quiz</h1>
+    <p class="privacy"><strong>Privacy:</strong> everything runs in your browser. Nothing you answer is stored or sent anywhere. All emails and companies below are fictional.</p>
+    <p>Read each email and decide: is it <strong>genuine</strong> or <strong>phishing</strong>? Links are shown as text only and cannot be clicked.</p>
+
+    <section id="quiz" class="card" aria-label="Quiz"></section>
+
+    <aside class="why">
+      <h2>Why this matters</h2>
+      <p><strong>Phishing</strong> tricks people into giving away passwords or installing malware, attacking the <strong>confidentiality</strong> and <strong>integrity</strong> of data in the CIA triad. Technology cannot block every message, so a <strong>security awareness programme</strong> that trains people to spot red flags is a key defence.</p>
+    </aside>
+  </main>
+
+  <script src="data/emails.js"></script>
+  <script src="js/phishing.js"></script>
+</body>
+</html>

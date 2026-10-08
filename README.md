@@ -77,7 +77,3 @@ Everything runs in your browser. Passwords and quiz answers are never stored, lo
 ## Tests performed
 
 See [docs/report.md](docs/report.md#testing) for the list of test cases.
-
-## Licence
-
-MIT - see [LICENSE](LICENSE).
